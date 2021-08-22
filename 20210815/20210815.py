@@ -4,7 +4,7 @@ def hi_fun1():
     display.config(text = "hi", fg = "#001970", bg = "#6A8BFF")
 def hi_fun2():
     print("hello Candy")
-    display.config(text = "", fg = "white", bg = "white")
+    display.config(text = "hi", fg = "green", bg = "white")
 windows = Tk()
 windows.title("Candy")
 btn1 = Button(windows, text = "show screen", command = hi_fun1)
